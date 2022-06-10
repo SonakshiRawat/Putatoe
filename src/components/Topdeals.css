@@ -1,0 +1,155 @@
+.bg {
+  background-color: white;
+  height: 300px;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.head {
+  color: #00838f;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.arr {
+  color: black;
+}
+.list1,
+.list3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.food {
+  width: 80px;
+  margin: 10px 50px;
+}
+
+.list1 .sub,
+.list3 .sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.build {
+  width: 150px;
+  padding: 0px 20px;
+}
+
+.cons {
+  color: gray;
+  font-size: 16px;
+}
+
+/* --------------- */
+.bg2 {
+  background-color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 89vw;
+}
+.sub2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 10px;
+  width: 350px;
+  height: 180px;
+  margin: 10px 20px;
+}
+
+.build2 {
+  height: 90%;
+  width: 170px;
+  margin: 0px 5px;
+}
+
+.sub2 p {
+  font-size: 17px;
+}
+.left {
+  width: 45%;
+}
+.sub2 .cons {
+  font-size: 16px;
+}
+
+.list2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+  .head {
+    font-size: 22px;
+  }
+}
+@media (max-width: 440px) {
+  .sub2 {
+    width: 300px;
+    height: 150px;
+  }
+
+  .build2 {
+    width: 130px;
+  }
+
+  .sub2 p {
+    font-size: 14px;
+  }
+
+  .sub2 .cons {
+    font-size: 13px;
+  }
+}
+@media (max-width: 428px) {
+  .head {
+    font-size: 18px;
+  }
+
+  .cons {
+    font-size: 15px;
+  }
+}
+@media (max-width: 404px) {
+  .sub2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+    padding-bottom: 10px;
+  }
+
+  .build2 {
+    width: 100%;
+    height: 50%;
+  }
+
+  .sub2 p {
+    font-size: 14px;
+  }
+
+  .sub2 .cons {
+    font-size: 13px;
+  }
+
+  .left {
+    width: 90%;
+  }
+}
+@media (max-width: 362px) {
+  .head {
+    font-size: 16px;
+  }
+}

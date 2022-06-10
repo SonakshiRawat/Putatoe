@@ -1,0 +1,61 @@
+.foot_bg {
+  background-color: #00838f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  width: 95vw;
+}
+
+.foot {
+  width: 100px;
+}
+
+.bold {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.link {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.rig {
+  margin-right: 6rem;
+}
+.sub {
+  transition: transform 0.8s;
+}
+.sub:hover {
+  transform: scale(1.2);
+}
+
+.sub2 {
+  transition: transform 0.8s;
+}
+.sub2:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 664px) {
+  li {
+    font-size: 13px;
+  }
+  .link {
+    font-size: 17px;
+  }
+
+  .bold {
+    font-size: 20px;
+  }
+
+  .loc p {
+    font-size: 17px;
+  }
+}

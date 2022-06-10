@@ -1,0 +1,68 @@
+.sub-row {
+  background-color: rgb(226, 222, 222);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  margin-top: 60px;
+  width: 95vw;
+}
+
+.facility {
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+.sub {
+  margin-right: 20px;
+}
+.sub p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 1014px) {
+  .sub-row {
+    width: 90vw;
+  }
+
+  .facility {
+    width: 40px;
+  }
+
+  .sub p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 686px) {
+  .sub-row {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 416px) {
+  .facility {
+    width: 30px;
+  }
+
+  .sub p {
+    font-size: 12px;
+  }
+  .sub {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .facility {
+    width: 25px;
+  }
+
+  .sub .p {
+    font-size: 10px;
+  }
+  .sub {
+    margin-right: 30px;
+  }
+}

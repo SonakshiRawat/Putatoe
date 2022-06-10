@@ -1,0 +1,52 @@
+.side {
+  min-width: 50px;
+  background-color: #00838f;
+  padding: 10px 5px;
+  transition: all ease 1s;
+  position: fixed;
+  top: 60px;
+  height: 90vh;
+}
+
+.side-hover {
+  min-width: 160px;
+}
+.round {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.sec {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  transition: all ease 0.5s;
+}
+.sec:hover {
+  background-color: white;
+  color: #00838f;
+  transform: scale(1.1);
+}
+
+.sec p {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.hidden {
+  display: none;
+}
+
+@media (max-width: 686px) {
+  .side {
+    display: none;
+  }
+  .dis {
+    display: block;
+  }
+}
